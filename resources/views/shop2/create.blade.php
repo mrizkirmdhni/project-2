@@ -9,7 +9,7 @@
 					Tambah Data Product
 					</div>
 					<div class="card-body">
-					<form action="{{url('shop2')}}" method="post">
+					<form action="{{url('admin/shop2')}}" method="post">
 						@csrf
 					
 					<div class="form-group">

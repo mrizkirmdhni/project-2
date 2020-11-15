@@ -19,7 +19,7 @@ class ShopController extends Controller{
 		$shop2->stok = request ('stok');
 		$shop2->save();
 			
-			return redirect('shop2')->with('success','Data Berhasil Ditambahkan');
+			return redirect('admin/shop2')->with('success','Data Berhasil Ditambahkan');
 		
 	}
 	function show(Shop $shop2){
@@ -39,12 +39,12 @@ class ShopController extends Controller{
 		$shop2->deskripsi = request ('deskripsi');
 		$shop2->save();
 			
-		return redirect('shop2')->with('success','Data Berhasil Diedit');
+		return redirect('admin/shop2')->with('success','Data Berhasil Diedit');
 	}
 	function destroy(Shop $shop2){
 		$shop2->delete();
 
-		return redirect('shop2')->with('danger','Data Berhasil Dihapus');
+		return redirect('admin/shop2')->with('danger','Data Berhasil Dihapus');
 
 	}
 }

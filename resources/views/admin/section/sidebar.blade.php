@@ -21,14 +21,12 @@
                                 <a href="{{url('experiance2')}}" class="nav-link"><span class="fa-home fa"></span> Experiance</a>
                             </li>
                             <li class="nav-item ">
-                                <a href="{{url('shop2')}}" class="nav-link"><span class="fa-home fa"></span> Shop</a>
+                                <a href="{{url('admin/shop2')}}" class="nav-link"><span class="fa-home fa"></span> Shop</a>
                             </li>
                             <li class="nav-item ">
-                                <a href="{{url('user')}}" class="nav-link"><span class="fa-home fa"></span> User</a>
+                                <a href="{{url('admin/user')}}" class="nav-link"><span class="fa-home fa"></span> User</a>
                             </li>
-                            <li class="nav-item ">
-                                <a href="{{url('login2')}}" class="nav-link"><span class="fa-home fa"></span> Logout</a>
-                            </li>
+            
                             
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-f fa-folder"></i>Master Data Penjualan</a>
