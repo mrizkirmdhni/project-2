@@ -13,23 +13,21 @@
                             
                             <li class="nav-item ">
                                 <a href="{{url('checkout2')}}" class="nav-link"><span class="fa-home fa"></span> Checkout</a>
-                                
                             </li>
                             <li class="nav-item ">
                                 <a href="{{url('contact2')}}" class="nav-link"><span class="fa-home fa"></span> Contact</a>
-                                
                             </li>
                             <li class="nav-item ">
                                 <a href="{{url('experiance2')}}" class="nav-link"><span class="fa-home fa"></span> Experiance</a>
-                                
                             </li>
                             <li class="nav-item ">
                                 <a href="{{url('shop2')}}" class="nav-link"><span class="fa-home fa"></span> Shop</a>
-                                
+                            </li>
+                            <li class="nav-item ">
+                                <a href="{{url('user')}}" class="nav-link"><span class="fa-home fa"></span> User</a>
                             </li>
                             <li class="nav-item ">
                                 <a href="{{url('login2')}}" class="nav-link"><span class="fa-home fa"></span> Logout</a>
-                                
                             </li>
                             
                             <li class="nav-item">
