@@ -2,7 +2,6 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-10">
-                             Copyright © 2020 by Muhammad Rizki Ramadhani</a>.
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-10">
                             <div class="text-md-right footer-links d-none d-sm-block">

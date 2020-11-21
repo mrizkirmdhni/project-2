@@ -1,25 +1,24 @@
 @extends('admin.admin')
 @section('content')
 
-					<div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="page-header">
-                                <h2 class="pageheader-title">User</h2>
-                                <div class="page-breadcrumb">
-                                    <nav aria-label="breadcrumb">
-                                        <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">E-Commerce Dashboard Template</li>
-                                        </ol>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 mt-5">
+			<div class="card">
+				<div class="card-header">
+					Filter
+				</div>
+				<div class="card-body">
+					<form action="{{url('admin/user/filter')}}" method="post">
+						@csrf
+						<div class="form-group">
+							<label for="" class="control-label">Nama</label>
+						<input type="text" class="form-control" name="nama" value="{{$nama ??""}}">
+						</div>
+						<button class="btn btn-dark float-right"><i class="fa fa-search"></i> Filter</button>
+					</form>
+				</div>
+			</div>
 			<div class="card">
 				<div class="card-header">
 					Data User
@@ -32,6 +31,7 @@
 									<th>Aksi</th>
 									<th>Username</th>
 									<th>Nama</th>
+									<th>Produk</th>
 									<th>Email</th>
 									
 							</thead>
@@ -48,6 +48,7 @@
 										</td>
 										<td>{{$user->username}}</td>
 										<td>{{$user->nama}}</td>
+										<td>{{$user->produk_count}}</td>
 										<td>{{$user->email}}</td>
 										
 									</tr>

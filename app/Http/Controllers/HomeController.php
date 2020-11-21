@@ -10,31 +10,23 @@ class HomeController extends Controller{
 	function showAdmin(){
 		return view('admin.admin');
 	}
-	function showLayout(){
-		return view('admin.layout');
+	function showAbout(){
+		return view('about');
 	}
-	function showCheckout(){
-		return view('checkout');
+	function showProfil(){
+		return view('profil');
 	}
-	function showContact(){
-		return view('contact');
+	function showKategori(){
+		return view('kategori');
 	}
-	function showExperiance(){
-		return view('experiance');
+	function showProduk(){
+		return view('produk');
 	}
-	function showShop(){
-		return view('shop');
+	function showPelanggan(){
+		return view('pelanggan');
 	}
-	function showCheckout2(){
-		return view('checkout2');
+	function showSupplier(){
+		return view('supplier');
 	}
-	function showContact2(){
-		return view('contact2');
-	}
-	function showExperiance2(){
-		return view('experiance2');
-	}
-	function showShop2(){
-		return view('shop2');
-	}
+	
 }
